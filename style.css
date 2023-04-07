@@ -46,9 +46,15 @@ text-decoration: none;
 .main-class{
     margin: 2rem;
 }
+.index-feature-example img, .index-feature-example1 img, .index-feature-example2 img, .index-feature-example3 img{
+height:500px;
+width: 800px;
+max-width: 100%;
+}
 .home-parah{
     align-items: center;
     background-color: #F9F7F5;
+    border-radius: 0.5rem;
 }
 .index-feature-example, .index-feature-example2{
     display: flex;
@@ -66,8 +72,8 @@ text-decoration: none;
     position: absolute;
     width: 527px;
     height: 200px;
-    left: 146px;
-    top: 332px;
+    left: 150px;
+    top: 380px;
     font-family: "Roboto";
     font-size: 12px;
     font-weight: 500;
@@ -101,8 +107,8 @@ margin-bottom: 1rem;
     position: absolute;
     width: 527px;
     height: 200px;
-    left: 763px;
-    top: 1000px;
+    right: 150px;
+    top: 880px;
     font-family: "Roboto";
     font-size: 12px;
     font-weight: 500;
@@ -114,8 +120,8 @@ margin-bottom: 1rem;
     position: absolute;
     width: 527px;
     height: 200px;
-    left: 146px;
-    top: 1600px;
+    left: 150px;
+    top: 1380px;
     font-family: "Roboto";
     font-size: 12px;
     font-weight: 500;
@@ -127,8 +133,8 @@ margin-bottom: 1rem;
     position: absolute;
     width: 527px;
     height: 200px;
-    left: 763px;
-    top: 2200px;
+    right: 150px;
+    top: 1880px;
     font-family: "Roboto";
     font-size: 12px;
     font-weight: 500;
@@ -147,6 +153,15 @@ margin-bottom: 1rem;
 /*work*/
 main{
     background-color:#ffffff;
+}
+.question{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    margin: 1rem;
+    padding-top: 1.5rem;
 }
 h2{
     text-align: center;
