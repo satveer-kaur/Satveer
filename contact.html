@@ -7,6 +7,24 @@
     <title>Satveer_Portfolio</title>
     <script src="https://kit.fontawesome.com/1df948237d.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="style.css">
+    <script>
+    function handle_form_submission()
+        {
+          alert('Thank you so much for contacting me. I will respond to you soon. ');
+      let output = document.getElementById('output');
+      function clearText(event) {
+         // access input field
+         let input1 = document.getElementById('firstName');
+         let input2 = document.getElementById('lastName');
+         let input3 = document.getElementById('email');
+         let input4 = document.getElementById('message');
+         input1.value = "";
+         input2.value = "";
+         input3.value = "";
+         input4.value = "";
+        
+      }}
+        </script>
 </head>
 <body>
     <header class="header">  
@@ -22,7 +40,7 @@
     </header>
     <main>
         <h2>Contact Me</h2>
-        <form class="contact_form">
+        <form class="contact_form" onsubmit="return handle_form_submission()"" onclick="this.value=''">
             <div class="contact-msg">
         <h4 class="contact_heading">Let's Talk!</h4>
             <p>Ask me anything, or share a project you'd want to work on with me.</p>
@@ -49,17 +67,11 @@
     </div>
     </div>
     <div class="contact_button">
-        <button class="btn" type="submit">Submit</button>
+        <button class="btn" id="btn" type="submit" value="Post Form">Submit</button>
     </div>
 </form>
     </main>
     <footer>
-        <ul class="menu">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="work.html">WORK</a></li>
-            <li><a href="resume.html">RESUME</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>  
         <div class="container">
        <p>Designed and Developed by Satveer kaur @2023</p>
     </div>
