@@ -49,11 +49,11 @@
         <div class="form">
         <div class="input-field">
             <label class="contact_label" for="firstName">First name<span>*</span></label>
-            <input type="text" name="firstName" id="firstName" placeholder="  First" class="contact_input">
+            <input type="text" name="firstName" id="firstName" placeholder="  First" class="contact_input" required pattern="[A-Za-z0-9]{1,10}">
         
         
             <label class="contact_label" for="lastName">Last name<span>*</span></label>
-            <input type="text" name="lastName" id="lastName" placeholder="  Last" class="contact_input">
+            <input type="text" name="lastName" id="lastName" placeholder="  Last" class="contact_input" required pattern="[A-Za-z0-9]{1,10}">
         
         
             <label class="contact_label" for="email">Email<span>*</span></label>

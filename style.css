@@ -286,6 +286,7 @@ h2{
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1rem;
+    padding-top: 0;
 }
 .project-links{   
     display: flex;
@@ -315,6 +316,7 @@ h2{
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1rem;
+    padding-top: 0;
 }
 /*Home Genie*/
 .homegenie-div{
@@ -332,6 +334,7 @@ h2{
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1rem;
+    padding-top: 0;
 }
 /*Design-challenge*/
 .buzzit-div{
@@ -349,6 +352,7 @@ h2{
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1rem;
+    padding-top: 0;
 }
 /*UI-Case study(Boutique)*/
 .ui-casestudy-div{
@@ -366,6 +370,7 @@ h2{
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1rem;
+    padding-top: 0;
 }
 /*UX-Case study(Boutique)*/
 .ux-casestudy-div{
@@ -383,6 +388,7 @@ h2{
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1rem;
+    padding-top: 0;
 }
 /*Contact*/
 .contact_form{
@@ -425,14 +431,21 @@ input{
     border-radius: 8px;
     border-width: 1px;
 }
+input:focus{
+    outline-style: none;
+    border: 1px solid #F28080;
+}
 .contact_input{
     display: grid;
 }
-
 textarea{
     width: 500px;
     margin-left: 0.5rem;
     border-radius: 8px;
+}
+textarea:focus{
+    outline-style: none;
+    border: 1px solid #F28080;
 }
 .form{
     display: grid;
