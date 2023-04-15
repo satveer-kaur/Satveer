@@ -164,6 +164,9 @@ margin-bottom: 1rem;
 .contact-msg a{
     text-decoration: none;
 }
+#project-links{
+    font-size: 18px;
+}
 /*work*/
 main{
     background-color:#ffffff;
@@ -263,7 +266,6 @@ h2{
     margin-bottom: 5px;
   }
   .resume-section img{
-    width: 90%; 
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1rem;
@@ -510,7 +512,7 @@ footer p{
 }
 .index-feature-example, .index-feature-example2, .index-feature-example1, .index-feature-example3{
     display: grid;
-    grid-template-rows: 1fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
 }
 .paragraph, .paragraph1, .paragraph2, .paragraph3{
     position: unset;
